@@ -32,7 +32,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class API {
-    public static final String URL = "http://ambulance.argadia.com/api/"; //URL
+    public static final String URL = "http://ambulan.kinaryatama.id/api/"; //URL
 
     //session
     public static String APIKEY = "apikey"; //URL

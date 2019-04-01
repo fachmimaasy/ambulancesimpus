@@ -253,6 +253,7 @@ public class ActivityOnSite extends AppCompatActivity {
         }
     };
 
+
     private void gpsTracker() {
         LocationManager lm = (LocationManager) getSystemService(getApplicationContext().LOCATION_SERVICE);
         if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -300,7 +301,7 @@ public class ActivityOnSite extends AppCompatActivity {
             ActivityOnSite.this.finish();
             startActivity(new Intent(getApplicationContext(), ActivityOtwHospital.class));
         }else{
-            Toast.makeText(getApplicationContext(), "Pengiriman Sata Gagal", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Pengiriman Data Gagal", Toast.LENGTH_LONG).show();
 
         }
     }

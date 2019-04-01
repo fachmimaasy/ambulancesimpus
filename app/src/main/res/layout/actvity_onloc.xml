@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/btn_trans"
-            android:text="Selesai dan kembali ke rumah sakit"
+            android:text="Selesai dan Menuju ke rumah sakit"
             android:textColor="@color/white" />
     </LinearLayout>
 
